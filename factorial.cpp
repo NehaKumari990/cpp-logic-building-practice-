@@ -1,12 +1,14 @@
-# include<iostream>
+# include <iostream>
 using namespace std;
 int main(){
-    int n,fact;
-    cout<<"enter number: ";
+    int n;
+    cout<<"enter a number : ";
     cin>>n;
-    fact = 1;
-    for(int i = 2;i<=n;i=i+1){
-        fact = fact * i;
+    int product = 1;
+    for(int i=1;i<=n;i++){
+        product *= i;
+            cout<<product<<endl;
+
     }
-    cout<<fact;
+    //cout<<product;
 }
