@@ -1,15 +1,18 @@
 # include<iostream>
 using namespace std;
 int main(){
-    int n,sum;
+    int n,rev;
     cout<<"enter number: ";
     cin>>n;
-    sum = 0;
-    
+    rev = 0;
+    if (n==0){
+        rev = 0;
+        
+    }
     while(n>0){
         int num = n%10;
-       sum = sum + num;
+       rev =rev*10+ num;
        n = n/10;
     }
-    cout<<sum;
+    cout<<rev;
 }
