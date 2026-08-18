@@ -1,0 +1,13 @@
+#include<iostream>
+#include<cctype>
+using namespace std;
+
+int main(){
+    // string str1 = "HELLO";
+    // string str2 = "world";
+
+    string str1,str2;
+    cin>>str1>>str2;
+
+    cout<<"Concatenated String:"<<str1+str2;
+}
