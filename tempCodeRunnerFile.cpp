@@ -1,3 +1,3 @@
-# include <iostream>
-using namespace std;
-int main()
+for(int i=l;i<=h;i++){
+//     mp[i]++;
+//    }
